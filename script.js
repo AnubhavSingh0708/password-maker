@@ -23,8 +23,8 @@ if (random2==1){
     } else if (random2==2){
         word2=word2.charAt(0)+word2.charAt(1);
     } else if (random2==3){
-        var last=word2.length-1;
-        word2=word2.charAt(0)+word2.charAt((last))  ;
+        var last2=(word2.length)-1;
+        word2=word2.charAt(0)+word2.charAt((last2))  ;
     }
     var output=[word1,word2,number,symbol];
     output = output.sort(() => Math.random() - 0.5);
