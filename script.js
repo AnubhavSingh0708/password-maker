@@ -15,7 +15,7 @@ word1=word1.charAt(0)+word1.charAt(1)+word1.charAt(2);
 } else if (random1==2){
     word1=word1.charAt(0)+word1.charAt(1);
 } else if (random1==3){
-    var last=word1.length-1;
+    var last=(word1.length)-1;
     word1=word1.charAt(0)+word1.charAt((last)) ; 
 }
 if (random2==1){
