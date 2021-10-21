@@ -5,6 +5,8 @@ self.addEventListener('install', (e) => {
         './index.html',
      //   '/pwa-examples/a2hs/index.js',
         './style.css',
+           './logo.svg',
+           './logo copy.svg',
       ])),
     );
   });
