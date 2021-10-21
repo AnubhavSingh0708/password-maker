@@ -12,9 +12,16 @@
         "src": "logo copy.svg",
         "sizes": "320x320",
         "type": "image/svg+xml"
+      },
+         {
+        "src": "logo.png",
+        "sizes": "320x320",
+        "type": "image/png"
       }
     ],
     "name": "password generator",
     "short_name": "password",
-    "start_url": "index.html"
+    "start_url": "index.html",
+    "orientation": "any",
+    "theme_color": "black"
   }
