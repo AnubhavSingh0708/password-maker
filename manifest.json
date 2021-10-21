@@ -1,0 +1,20 @@
+{
+    "background_color": "black",
+    "description": "Don't forget your password because we can generate you a custom unique password thats easy to remember and difficault for anyone else to find out",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "logo.svg",
+        "sizes": "120x120",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "logo copy.svg",
+        "sizes": "320x320",
+        "type": "image/svg+xml"
+      }
+    ],
+    "name": "password generator",
+    "short_name": "password",
+    "start_url": "index.html"
+  }
