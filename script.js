@@ -9,7 +9,6 @@ var oword2=word2;
 var number=document.getElementById("number").value;
 var random1=Math.floor((Math.random()*3)+1);
 var random2=Math.floor((Math.random()*3)+1);
-var random3=Math.floor((Math.random()*24)+1);
 if (random1==1){
 word1=word1.charAt(0)+word1.charAt(1)+word1.charAt(2);
 } else if (random1==2){
