@@ -1,5 +1,7 @@
 # password-maker
 a secure easy to remember password generator 
+### api available
+[api link](/api)
 # how it works
 when you click on generate 
 it chooses randomly between **taking first two**, **first three** or **first and last one**
