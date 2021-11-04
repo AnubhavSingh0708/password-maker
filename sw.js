@@ -1,6 +1,6 @@
 self.addEventListener('install', (e) => {
     e.waitUntil(
-      caches.open('fox-store').then((cache) => cache.addAll([
+      caches.open('password-maker').then((cache) => cache.addAll([
         './',
         './index.html',
      //   '/pwa-examples/a2hs/index.js',
