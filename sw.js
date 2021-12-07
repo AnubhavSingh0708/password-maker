@@ -3,9 +3,12 @@ self.addEventListener('install', (e) => {
       caches.open('password-maker').then((cache) => cache.addAll([
         './',
         './index.html',
-     //   '/pwa-examples/a2hs/index.js',
         './style.css',
            './logo.svg',
+         './logo.png',
+            './logo2.png',
+        './logo3.png',
+            './script.js',
            './logo copy.svg',
       ])),
     );
